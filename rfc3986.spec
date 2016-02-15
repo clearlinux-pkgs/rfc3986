@@ -4,7 +4,7 @@
 #
 Name     : rfc3986
 Version  : 0.3.0
-Release  : 15
+Release  : 16
 URL      : https://pypi.python.org/packages/source/r/rfc3986/rfc3986-0.3.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/r/rfc3986/rfc3986-0.3.0.tar.gz
 Summary  : Validating URI References per RFC 3986
