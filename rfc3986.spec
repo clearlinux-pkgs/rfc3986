@@ -4,7 +4,7 @@
 #
 Name     : rfc3986
 Version  : 0.4.1
-Release  : 21
+Release  : 22
 URL      : http://pypi.debian.net/rfc3986/rfc3986-0.4.1.tar.gz
 Source0  : http://pypi.debian.net/rfc3986/rfc3986-0.4.1.tar.gz
 Summary  : Validating URI References per RFC 3986
