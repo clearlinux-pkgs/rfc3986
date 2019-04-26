@@ -1,5 +1,5 @@
 PKG_NAME := rfc3986
-URL = https://files.pythonhosted.org/packages/8b/5f/452af943db1ee24875fd1c51b5ce15c0e4e0b1340ffc72ff8f199af90382/rfc3986-1.3.0.tar.gz
+URL = https://files.pythonhosted.org/packages/84/87/ce68f4ad914d3a312c7fbb797d6b273d51037a02e0d40f622fccd41ead0f/rfc3986-1.3.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
