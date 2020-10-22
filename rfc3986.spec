@@ -4,7 +4,7 @@
 #
 Name     : rfc3986
 Version  : 1.4.0
-Release  : 38
+Release  : 39
 URL      : https://files.pythonhosted.org/packages/70/e2/1344681ad04a0971e8884b9a9856e5a13cc4824d15c047f8b0bbcc0b2029/rfc3986-1.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/70/e2/1344681ad04a0971e8884b9a9856e5a13cc4824d15c047f8b0bbcc0b2029/rfc3986-1.4.0.tar.gz
 Summary  : Validating URI References per RFC 3986
@@ -20,10 +20,13 @@ BuildRequires : py
 BuildRequires : pytest
 
 %description
-rfc3986
 =======
-A Python implementation of `RFC 3986`_ including validation and authority
-parsing.
+        
+        A Python implementation of `RFC 3986`_ including validation and authority 
+        parsing.
+        
+        Installation
+        ------------
 
 %package license
 Summary: license components for the rfc3986 package.
@@ -61,15 +64,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1586357259
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1603403564
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
 export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
