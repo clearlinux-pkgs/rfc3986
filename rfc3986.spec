@@ -4,7 +4,7 @@
 #
 Name     : rfc3986
 Version  : 1.4.0
-Release  : 39
+Release  : 40
 URL      : https://files.pythonhosted.org/packages/70/e2/1344681ad04a0971e8884b9a9856e5a13cc4824d15c047f8b0bbcc0b2029/rfc3986-1.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/70/e2/1344681ad04a0971e8884b9a9856e5a13cc4824d15c047f8b0bbcc0b2029/rfc3986-1.4.0.tar.gz
 Summary  : Validating URI References per RFC 3986
